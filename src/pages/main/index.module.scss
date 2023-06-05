@@ -1,0 +1,9 @@
+.mainPage {
+  @include desktop {
+    max-width: 1127px;
+    margin: 0 auto;
+  }
+  .divider {
+    padding: 0 12px;
+  }
+}

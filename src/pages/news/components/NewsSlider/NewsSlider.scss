@@ -1,0 +1,32 @@
+.newsSliderContainer {
+  padding: 30px 15px;
+  background-color: #f4f7ff;
+
+  > div:first-child {
+    @include desktop {
+      width: 1100px;
+      margin: 0 auto;
+    }
+  }
+
+  /* overrides default slider styling */
+  .slick-list {
+    .slick-track {
+      @include desktop {
+        display: flex;
+
+        > div:not(:last-child) {
+          margin-right: 80px;
+        }
+        > * {
+          flex: 1 1 auto;
+        }
+      }
+    }
+  }
+  .slick-dots {
+    position: static;
+    margin-top: 30px;
+  }
+  /*  */
+}

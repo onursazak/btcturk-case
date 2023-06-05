@@ -1,0 +1,20 @@
+.divider {
+  margin: 0;
+
+  hr {
+    margin: 0;
+    border-bottom: none;
+  }
+
+  &.solid {
+    hr {
+      border-top: 1px solid #dbe5ff;
+    }
+  }
+
+  &.dashed {
+    hr {
+      border-top: 1px dashed #dbe5ff;
+    }
+  }
+}

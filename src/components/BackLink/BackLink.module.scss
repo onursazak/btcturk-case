@@ -1,0 +1,14 @@
+.backLink {
+  padding: 10px 12px;
+  background-color: #052c54;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}

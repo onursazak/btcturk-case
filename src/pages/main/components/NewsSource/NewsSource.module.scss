@@ -1,0 +1,30 @@
+.newsSource {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  align-items: center;
+  padding-bottom: 15px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  .content {
+    padding-bottom: 15px;
+    .title {
+      color: #5325ea;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .text {
+      margin-top: 15px;
+      color: #7c89a0;
+      line-height: 22px;
+    }
+  }
+
+  .button {
+    margin-left: 15px;
+  }
+}
